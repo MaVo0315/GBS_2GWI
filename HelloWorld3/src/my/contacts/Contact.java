@@ -5,7 +5,7 @@ public class Contact {
 	private Person person;
 	private String phoneNumber;
 	private String emailAdress;
-	private String mobileNumber;
+	private String mobileNumber;//reste
 	private String kategorie;
 
 	public String getMobileNumber() {
