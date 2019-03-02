@@ -6,6 +6,7 @@ public class Contact {
 	private String phoneNumber;
 	private String emailAdress;
 	private String mobileNumber;
+	private String kategorie;
 
 	public String getMobileNumber() {
 		return mobileNumber;
