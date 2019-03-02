@@ -5,6 +5,15 @@ public class Contact {
 	private Person person;
 	private String phoneNumber;
 	private String emailAdress;
+	private String mobileNumber;
+
+	public String getMobileNumber() {
+		return mobileNumber;
+	}
+
+	public void setMobileNumber(String mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
 
 	public Person getPerson() {
 		return person;
@@ -40,8 +49,8 @@ public class Contact {
 
 	@Override
 	public String toString() {
-		String s = String.format("%s %s \n %s \n %s", person.getFirstName(), person.getLastName(), getPhoneNumber(),
-				getEmailAdress());
+		String s = String.format("%s %s \n %s \n %s \n %s", person.getFirstName(), person.getLastName(), getPhoneNumber(),
+				getMobileNumber(), getEmailAdress());
 		return s;
 	}
 
