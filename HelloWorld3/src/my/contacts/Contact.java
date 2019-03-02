@@ -6,7 +6,7 @@ public class Contact {
 	private String phoneNumber;
 	private String emailAdress;
 	private String mobileNumber;//reste
-	private String kategorie;
+	private String kategorie; //test
 
 	public String getMobileNumber() {
 		return mobileNumber;
