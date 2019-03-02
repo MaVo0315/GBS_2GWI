@@ -6,6 +6,15 @@ public class Contact {
 	private String phoneNumber;
 	private String emailAdress;
 	private String mobileNumber;
+	private String shortCode;
+
+	public String getShortCode() {
+		return shortCode;
+	}
+
+	public void setShortCode(String shortCode) {
+		this.shortCode = shortCode;
+	}
 
 	public String getMobileNumber() {
 		return mobileNumber;
@@ -49,7 +58,7 @@ public class Contact {
 
 	@Override
 	public String toString() {
-		String s = String.format("%s %s \n %s \n %s \n %s", person.getFirstName(), person.getLastName(), getPhoneNumber(),
+		String s = String.format("%s %s \n %s \n %s \n %s ", person.getFirstName(), person.getLastName(), getPhoneNumber(),
 				getMobileNumber(), getEmailAdress());
 		return s;
 	}
