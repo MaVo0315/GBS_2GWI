@@ -28,7 +28,7 @@ public class Contact {
 		this.phoneNumber = phoneNumber.trim();
 	}
 
-	public String getEmailAdress() {
+	public String getEmailAdress() { //obsolete
 		return emailAdress;
 	}
 
