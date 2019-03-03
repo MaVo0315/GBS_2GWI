@@ -7,7 +7,7 @@ public class Contact {
 	private String emailAdress;
 
 	private String mobileNumber;//restereste
-	private String kategorie; //testtest
+	private String kategorie; //testtesttest
 
 
 	private String shortCode;
