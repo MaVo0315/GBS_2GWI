@@ -33,7 +33,7 @@ public class Contact {
 	}
 
 	public void setPhoneNumber(String phoneNumber) {
-		this.phoneNumber = phoneNumber.trim();
+		this.phoneNumber = phoneNumber.trim(); //ToDo
 	}
 
 	public String getEmailAdress() {
