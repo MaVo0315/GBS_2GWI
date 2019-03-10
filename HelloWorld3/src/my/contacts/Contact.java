@@ -21,7 +21,7 @@ public class Contact {
 		this.shortCode = shortCode;
 	}
 
->>>>>>> refs/heads/Ticket3
+
 
 	public String getMobileNumber() {
 		return mobileNumber;
