@@ -8,7 +8,7 @@ public class Contact {
 
 
 	private String mobileNumber;
-	private String kategorie; 
+	private String categorie; 
 
 
 	private String shortCode;
